@@ -3,7 +3,7 @@ import React from 'react'
 import '../common/style/style.css'
 import '../common/style/bootstrap.css'
 import '../common/style/style.css'
-import Logo from '../Logo'
+import Logo from '../Logo/Logo'
 
 const Header = () => {
 	return (
