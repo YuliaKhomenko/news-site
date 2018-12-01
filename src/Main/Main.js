@@ -51,7 +51,7 @@ const Main = () => {
 					<div className= "main-content col-md-6">
 						<div className="row">
 							<div className="teme-main"><a href=''>B r e a k i n g N e w s</a>
-								<iframe width="500" height="370" src="https://www.youtube.com/embed/PQJvQjC2ptE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<iframe width="500" height="370" src="https://www.youtube.com/embed/PQJvQjC2ptE" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 								<div className="text-main"><a href=''>Democrats regain the House as record number of women elected to Congress</a></div>
 								<div className="row">
 									<div className="col-md-6">
@@ -68,13 +68,13 @@ const Main = () => {
 									</div>
 									<div className="col-md-6">
 										<div className="top">
-											<iframe width="210" height="165" src="https://www.youtube.com/embed/55vAmEL8nrk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											<iframe width="210" height="165" src="https://www.youtube.com/embed/55vAmEL8nrk" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 											<div className="text"><a href=''>Man pleads guilty to killing pregnant wife, daughters</a></div>
 										</div>
 									</div>
 									<div className="col-md-6">
 										<div className="top">
-											<iframe width="210" height="165" src="https://www.youtube.com/embed/D4rT90ESIjg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											<iframe width="210" height="165" src="https://www.youtube.com/embed/D4rT90ESIjg" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 											<div className="text"><a href=''>Daylight saving time, marijuana legalization among ballot initiatives</a></div>
 										</div>
 									</div>
@@ -99,11 +99,11 @@ const Main = () => {
 							</div>
 						</div>
 						<div className="teme"><a href=''>W a t c h</a>
-							<iframe width="210" height="165" src="https://www.youtube.com/embed/8AOjbUzYfgU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<iframe width="210" height="165" src="https://www.youtube.com/embed/8AOjbUzYfgU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 							<div className="text"><a href=''>"Appreciate every moment": MakSim first told about the incurable illness of the father you will be, researchers say</a></div>
-							<iframe width="210" height="165" src="https://www.youtube.com/embed/D0CfjoBfXlI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<iframe width="210" height="165" src="https://www.youtube.com/embed/D0CfjoBfXlI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 							<div className="text"><a href=''>More than 27K evacuated as fire destroys town</a></div>
-							<iframe width="210" height="165" src="https://www.youtube.com/embed/P4wwoVxp9ZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<iframe width="210" height="165" src="https://www.youtube.com/embed/P4wwoVxp9ZI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 							<div className="text"><a href='' >Teen describes surviving great white shark bite</a></div>
 
 					</div>

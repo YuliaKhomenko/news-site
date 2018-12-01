@@ -1,6 +1,7 @@
 import React from 'react'
 
-import logo from './logo'
+import '../common/style/style.css'
+import logo from './logo.jpg'
 
 const Logo = () => 
     <div className="logo">
