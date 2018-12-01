@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Logo = () => {
-	return ( 
+import logo from './logo'
+
+const Logo = () => 
     <div className="logo">
-		<img src="news.jpg" alt=""/>
+		<img src={logo} alt=""/>
 	</div>
-	)
-	}
+	
 
 export default Logo;
