@@ -8,7 +8,7 @@ import ArticlesListItem from './ArticlesListItem'
 
 const ArticleList = () => {
     return (
-        <div className="Article-list">
+        <div className="row">
             {
                 pictures.map(({
                     id,
