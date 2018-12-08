@@ -3,8 +3,10 @@ import React from 'react'
 import '../common/style/style.css'
 import '../common/style/bootstrap.css'
 import '../common/style/style.css'
-
+import {Route} from 'react-router-dom'
 import ArticleList from './Articles/ArticleList';
+import Article1 from './ArticlesContent/Article1'
+import {Link} from 'react-router-dom'
 
 const Main = () => {
 	return (
@@ -22,6 +24,7 @@ const Main = () => {
 				</div>
 					<div className= "left col-md-3">
 						<div className="teme"><a href=''>H o t</a>
+						
 							<ArticleList/>
 						</div>
 						<div className="teme"><a href=''>C e l e b r e t i e s</a>
