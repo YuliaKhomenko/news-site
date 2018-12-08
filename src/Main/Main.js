@@ -4,6 +4,8 @@ import '../common/style/style.css'
 import '../common/style/bootstrap.css'
 import '../common/style/style.css'
 
+import ArticleList from './Articles/ArticleList';
+
 const Main = () => {
 	return (
         <main className="main">
@@ -20,18 +22,7 @@ const Main = () => {
 				</div>
 					<div className= "left col-md-3">
 						<div className="teme"><a href=''>H o t</a>
-							<div className="top">
-								<div className="picture-right"><a href=''><img className="picture-top" /></a></div>
-								<div className="text"><a href=''>12 dead in California bar shooting</a></div>
-							</div>
-							<div className="top">
-								<div className="picture-right"><a href=''><img className="picture-top" /></a></div>
-								<div className="text"><a href=''>69-year-old Dutchman starts legal bid to become 20 years younger</a></div>
-							</div>
-							<div className="top">
-								<div className="picture-right"><a href=''><img className="picture-top" /></a></div>
-								<div className="text"><a href=''>Brazilian Grand Prix: Reliving Lewis Hamilton's first world title 10 years on</a></div>
-							</div>
+							<ArticleList/>
 						</div>
 						<div className="teme"><a href=''>C e l e b r e t i e s</a>
 							<div className="top">
