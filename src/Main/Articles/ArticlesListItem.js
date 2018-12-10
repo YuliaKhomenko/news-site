@@ -15,7 +15,7 @@ const ArticlesListItem = ({
             <div className="top">
                 <div className="picture-right"><a href=''><img src={image} alt=''/></a></div>
                 <div className="text">
-                    <Link to={`articles/${id}`}>{name}</Link>
+                    <Link to={`/${id}`}>{name}</Link>
                 </div>
             </div>
         </div>

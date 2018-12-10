@@ -7,9 +7,7 @@ import {Route} from 'react-router-dom'
 import ArticleList, { ArticleListCelebreties } from './Articles/ArticleList';
 import ArticleOne from './ArticlesContent/ArticleOne';
 
-const Main = (
-	getArticlesMap,
-) => {
+const Main = () => {
 	return (
         <main className="main">
 			<div className="container">			
@@ -33,13 +31,8 @@ const Main = (
 					</div>
 					<div className= "main-content col-md-6">
 						<div className="row">
-							{/* <Route path="/articles/:articleId" component={ArticleOne}/> */}
-							<Route path="/" exact render={()=>{
-						return (<ArticleOne
-							getArticlesMap={getArticlesMap}/>)
-					}}/>
-
-							
+							<Route path="/:articleId" component={ArticleOne}/>
+													
 							<div className="teme-main">
 								
 								<a href=''>B r e a k i n g N e w s</a>
