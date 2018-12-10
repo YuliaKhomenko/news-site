@@ -1,4 +1,4 @@
-const pictures = [
+const pictureshot = [
     {
         id:1,
         image:"/images/articles/top.jpg",
@@ -19,4 +19,4 @@ const pictures = [
 ]
 
 
-export default pictures
+export default pictureshot
