@@ -160,6 +160,7 @@ div.teme-main > a {
 	text-decoration: none;
     color: #c90;
 }
+
 div .picture-right img {
 	width: 210px;
 	height: 165px;
@@ -178,6 +179,9 @@ div.text > a {
 	font-size: 16px;
 	text-decoration: none;
     color: white;
+}
+div.text > a:hover {
+	color: #c90;
 }
 .text {
 	margin-bottom: 20px;

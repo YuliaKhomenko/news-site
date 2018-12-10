@@ -24,7 +24,6 @@ const Main = () => {
 				</div>
 					<div className= "left col-md-3">
 						<div className="teme"><a href=''>H o t</a>
-						
 							<ArticleList/>
 						</div>
 						<div className="teme"><a href=''>C e l e b r e t i e s</a>
