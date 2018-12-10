@@ -31,8 +31,12 @@ const Main = () => {
 					</div>
 					<div className= "main-content col-md-6">
 						<div className="row">
-							<div className="teme-main"><a href=''>B r e a k i n g N e w s</a>
-								<Route path="/articles/:articleId" component={ArticleOne}/>
+							<Route path="/articles/:articleId" component={ArticleOne}/>
+							
+							<div className="teme-main">
+								
+								<a href=''>B r e a k i n g N e w s</a>
+								
 								<iframe width="500" height="370" src="https://www.youtube.com/embed/PQJvQjC2ptE" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 								<div className="text-main"><a href=''>Democrats regain the House as record number of women elected to Congress</a></div>
 								<div className="row">
