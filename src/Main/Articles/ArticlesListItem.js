@@ -27,6 +27,7 @@ onLikeClick = () => {
     id,
     isLiked,
 } = this.props
+    
     return(
         <div className="ArticlesListItem">
             <div className="top">
@@ -35,7 +36,7 @@ onLikeClick = () => {
                     <Link to={`articles/${id}`}>{name}</Link>
                 </div>
                 <button className="button" onClick={() => this.onLikeClick()}>
-                    {isLiked ? <span>&#9829;</span> : <span>&#9825;</span>}
+                    {isLiked ? <span>&#x2764;</span> : <span>&#9825;</span>}
                 </button>
 
             </div>

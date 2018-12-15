@@ -8,12 +8,11 @@ const ArticleOne=({
     articlesItem = getArticlesMap(pictureshot),
     match
 }) =>
-    
-		<div className="teme-main"><a href=''>{articlesItem[match.params.articleId].name}</a>
-            <div className="picture-right-article"><a href=''><img src={articlesItem[match.params.articleId].image} alt=''/></a></div>
-			 <div class="text-article"> {articlesItem[match.params.articleId].content}
-            </div> 
-		</div>
+    <div className="teme-main"><a href=''>{articlesItem[match.params.articleId].name}</a>
+        <div className="picture-right-article"><a href=''><img src={articlesItem[match.params.articleId].image} alt=''/></a></div>
+        <div class="text-article"> {articlesItem[match.params.articleId].content}
+        </div> 
+	</div>
 
 
 export default ArticleOne
