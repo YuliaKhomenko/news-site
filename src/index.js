@@ -5,10 +5,15 @@ import {Provider} from 'react-redux';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {createStore} from 'redux'
+import articleLikesReducer from './common/features/articlelikereducer'
 
 
-const articleLikesReducer = (state={},action) => state
-const store = createStore(articleLikesReducer)
+
+const store = createStore(
+    articleLikesReducer,
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+    )
+
 
 ReactDOM.render(
     <Provider store={store}>

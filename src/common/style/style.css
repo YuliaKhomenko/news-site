@@ -184,7 +184,7 @@ div.text > a:hover {
 	color: #c90;
 }
 .text {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 .text-main {
 	margin-bottom: 20px;
@@ -226,4 +226,8 @@ div.picture-right-article img {
 	height: 230px;
 	border: 3px solid #e6e6e6;
     text-align: left;
+}
+
+button.button {
+    margin-bottom: 15px;
 }
