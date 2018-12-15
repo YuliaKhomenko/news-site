@@ -34,7 +34,7 @@ const Main = () => {
 					<div className= "main-content col-md-6">
 						<div className="row">
 						<Route path="/articles/:articleId" component={ArticleOne}/>
-						<switch>						
+												
 							<div className="teme-main">
 								
 								<a href=''>B r e a k i n g N e w s</a>
@@ -68,7 +68,7 @@ const Main = () => {
 									</div>
 								</div>
 								</div>
-							</switch>
+							
 						</div>
 					</div>	
 							
