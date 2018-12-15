@@ -12,6 +12,7 @@ const Main = () => {
         <main className="main">
 			<div className="container">			
 				<div className="row">
+				
 					<div className="search col-md-4"/>
 					<div className="search col-md-4"></div>
 					<div className="search col-md-4">
@@ -21,6 +22,7 @@ const Main = () => {
 						</ul>
 					</div>
 				</div>
+				
 					<div className= "left col-md-3">
 						<div className="teme"><a href=''>H o t</a>
 							<ArticleList/>
@@ -31,8 +33,8 @@ const Main = () => {
 					</div>
 					<div className= "main-content col-md-6">
 						<div className="row">
-							<Route path="/:articleId" component={ArticleOne}/>
-													
+						<Route path="/articles/:articleId" component={ArticleOne}/>
+						<switch>						
 							<div className="teme-main">
 								
 								<a href=''>B r e a k i n g N e w s</a>
@@ -65,7 +67,8 @@ const Main = () => {
 										</div>
 									</div>
 								</div>
-							</div>
+								</div>
+							</switch>
 						</div>
 					</div>	
 							

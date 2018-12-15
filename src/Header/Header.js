@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 import '../common/style/style.css'
 import '../common/style/bootstrap.css'
 import '../common/style/style.css'
@@ -14,7 +14,7 @@ const Header = () => {
 						<div className= "col-md-12"><Logo/></div>
 						<div className="col-md-12">
 							<ul className="menu">
-								<li><a href=''>Home Page</a></li>
+								<li><Link to="/">Home Page</Link></li>
 								<li><a href=''>Bussiness</a>
 									<ul className="submenu">  
 										<li><a href=''>Economy</a></li>
